@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int l_1=nums1.length;int l_2=nums2.length;
        int[] arr=new int[l_1+l_2];
@@ -17,4 +17,4 @@ class Solution {
         return((arr[mid-1]+arr[mid])/2.0);
        }
        return arr[mid]/1.0;
-       }}
+       }}*/
