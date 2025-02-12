@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class RemoveDuplicatesfromarray {
-    /* */class Solution {
+    /* class Solution {
     public int removeDuplicates(int[] nums) {
         int count=0;
     for(int i=0;i<nums.length-1;i++){
