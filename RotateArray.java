@@ -1,5 +1,5 @@
 public class RotateArray {
-   /*/ class Solution {
+   /*class Solution {
         public int[] reverse(int[] nums,int left,int right){
             while (left < right) {
                 int temp = nums[left];
@@ -16,5 +16,5 @@ public class RotateArray {
             reverse(nums,k,nums.length-1);
             reverse(nums,0,k-1);
         }
-    }
+    }*/
 }
