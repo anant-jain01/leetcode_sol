@@ -2,16 +2,16 @@ import java.util.Arrays;
 
 public class RemoveDuplicatesfromarray {
     /* class Solution {
-    public int removeDuplicates(int[] nums) {
+    public int removeDuplicates(int[] num) {
         int count=0;
-    for(int i=0;i<nums.length-1;i++){
-        if(nums[i]==nums[i+1]&&nums[i]!=101){
-            nums[i]=101;
+    for(int i=0;i<num.length-1;i++){
+        if(num[i]==num[i+1]&&num[i]!=101){
+            num[i]=101;
             count++;
         }
     }
-    Arrays.sort(nums);
-    return nums.length-count;
+    Arrays.sort(num);
+    return num.length-count;
     }
 }*/
 }
