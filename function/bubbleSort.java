@@ -6,7 +6,7 @@ public class bubbleSort {
         Scanner sc=new Scanner(System.in);
         int i=sc.nextInt();int[] arr=new int[i];
         while(i>0){
-            arr[i]=sc.nextInt;
+            arr[i]=sc.nextInt();
         }
     }
 }
