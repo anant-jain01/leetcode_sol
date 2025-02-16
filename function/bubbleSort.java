@@ -6,16 +6,16 @@ public class bubbleSort {
         Scanner sc=new Scanner(System.in);
         int i=sc.nextInt();
         int[] arr=new int[i];
-        while(i>0){
+        for (int j = 0; j < i; j++) {
             System.out.println("number:");
-            arr[i-1]=sc.nextInt();
-            i--;
+            arr[j] = sc.nextInt();
         }
         int[] num=bubble(arr);
-        while(i<=arr.length){
-            System.out.println(num[i-1]);
+        System.out.println();
+        for (int j = 0; j < num.length; j++) {
+            System.out.println(num[j]);
         }
-        sc.close();
+    
     }
     public static int[] bubble(int[] arr){
         for(int j=0;j<arr.length;j++){
