@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class RemoveDuplicatesfromarray {
     /* class Solution {
     public int removeDuplicates(int[] num) {
