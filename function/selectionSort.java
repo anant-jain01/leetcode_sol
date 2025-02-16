@@ -26,6 +26,14 @@ public class selectionSort {
         }
         return min;
     }
-     
+    public static int[] selection(int[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            int j=minimum(arr,i);
+            int temp=arr[j];
+            arr[j]=arr[i];
+            arr[i]=temp;
+        }
+        return arr;
+    }  
     
 }
