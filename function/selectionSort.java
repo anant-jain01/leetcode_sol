@@ -17,6 +17,15 @@ public class selectionSort {
             System.out.println(num[j]);
         }
     }
-    }  
+    }
+    public static int minimum(int[] arr,int i){
+        int min=i;
+        for (int j = i+1; j < arr.length; j++) {
+            if(arr[j]<arr[min])
+            min=j;
+        }
+        return min;
+    }
+     
     
 }
