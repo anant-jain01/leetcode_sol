@@ -5,13 +5,4 @@ public class insertionSort {
         try(Scanner sc=new Scanner(System.in)){
             System.out.print("no of elements:");
             int n=sc.nextInt();
-            int[] arr=new int[n];
-            for (int i = 0; i < arr.length; i++) {
-                System.out.print("number:");
-                arr[i]=
-                    }
-                }
-            }
-            return arr;
-    }
-}
+           
