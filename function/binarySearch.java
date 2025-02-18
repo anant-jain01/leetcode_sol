@@ -12,4 +12,8 @@ public class binarySearch {
         System.out.println(binary(int[] arr,target));
     }
 }
+public static int binary(int[] arr,int target){
+    int low=0;int high=arr.length-1;
+    
+}
 }
