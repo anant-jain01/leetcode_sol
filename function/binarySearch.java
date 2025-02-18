@@ -8,6 +8,8 @@ public class binarySearch {
         while(x>=0){
             arr[x]=sc.nextInt();
         }
+        System.out.println("target:");
+        System.out.println(binary(int[] arr,target));
     }
 }
 }
