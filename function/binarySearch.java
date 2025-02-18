@@ -6,7 +6,7 @@ public class binarySearch {
         int x=sc.nextInt();
         int[] arr=new int[x];
         while(x>=0){
-
+            arr[x]=sc.nextInt();
         }
     }
 }
