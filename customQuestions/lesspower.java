@@ -10,6 +10,10 @@ public class lesspower {
         }
     }
     public static int number(int power,int target){
-       
+        int low=0;int high=target;int best=0;
+        while(low<high){
+            
+        }}
+        return best;
     }
 }
