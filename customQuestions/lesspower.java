@@ -9,5 +9,7 @@ public class lesspower {
             System.out.println(number(n,x));
         }
     }
-    
+    public static int number(int power,int target){
+       
+    }
 }
