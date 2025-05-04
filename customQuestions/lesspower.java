@@ -12,7 +12,15 @@ public class lesspower {
     public static int number(int power,int target){
         int low=0;int high=target;int best=0;
         while(low<high){
-            
+            int mid=low+(high-low)/2;
+            if(Math.pow(mid,power)==target){
+                return mid;
+            }
+            else if(Math.pow(mid,power)>target)
+            high=mid-1;
+            else{
+            low=mid+1;
+            best=mid;
         }}
         return best;
     }
